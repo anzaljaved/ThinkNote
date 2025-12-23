@@ -3,13 +3,9 @@ import { PlusIcon } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-base-300 border-b border-base-content/10">
-      <div className="mx-auto max-w-xl p-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <p>© 2025 ThinkNote By Anzal. All rights reserved.</p>
-          </div>
-        </div>
+    <footer className="bg-base-300 border-t border-base-content/10 w-full">
+      <div className="w-full flex justify-center p-4">
+        <p className="text-center">© 2025 ThinkNote By Anzal. All rights reserved.</p>
       </div>
     </footer>
   );
